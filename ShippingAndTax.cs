@@ -30,7 +30,7 @@ namespace ShippingAndTax
 {
     public partial class Form1 : Form
     {
-        internal const double tax = .07;
+        const double TAX = .07;
         public Form1()
         {
             InitializeComponent();
@@ -87,7 +87,7 @@ namespace ShippingAndTax
                 lblShipping.Text = "$0";
             }
             //assign totals, price plus tax plus any applicable shipping costs//
-            double totals = tempPrice + (tempPrice * tax) + shipping;
+            double totals = tempPrice + (tempPrice * TAX) + shipping;
             txtTotal.Text = totals.ToString("C");
 
         }
