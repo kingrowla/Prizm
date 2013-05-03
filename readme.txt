@@ -1,0 +1,1 @@
+Just some sample snippets upon an initial commmit. More to be added once I get my projects more organized.
